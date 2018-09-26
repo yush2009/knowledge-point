@@ -1,0 +1,4 @@
+#用户名     密码       权限         目录
+#root     123456      elradfmwM    /home/
+test1     123456      elradfmwM    D:\\test\\test1
+test2     123456      elradfmwM    D:\\test\\test2
