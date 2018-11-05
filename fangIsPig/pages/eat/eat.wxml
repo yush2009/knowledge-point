@@ -1,0 +1,77 @@
+<!--index.wxml-->
+<view class="eatView">
+    <view class="chooseForUserView">
+        <view class="choose-V">
+          <view wx:if="{{isChoosed[0]==1}}" class='choose-view' bindtap='changeForChoose' id='0'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='0'>
+            <image class='choose-image' src='{{srcs[0]}}'></image>
+          </view>
+
+          <view wx:if="{{isChoosed[1]==1}}" class='choose-view' bindtap='changeForChoose' id='1'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='1'>
+            <image class='choose-image' src='{{srcs[1]}}'></image>
+          </view>
+
+          <view wx:if="{{isChoosed[2]==1}}" class='choose-view' bindtap='changeForChoose' id='2'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='2'>
+            <image class='choose-image' src='{{srcs[2]}}'></image>
+          </view>
+        </view>
+
+        <view class="choose-V">
+          <view wx:if="{{isChoosed[3]==1}}" class='choose-view' bindtap='changeForChoose' id='3'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='3'>
+            <image class='choose-image' src='{{srcs[3]}}'></image>
+          </view>
+
+          <view wx:if="{{isChoosed[4]==1}}" class='choose-view' bindtap='changeForChoose' id='4'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='4'>
+            <image class='choose-image' src='{{srcs[4]}}'></image>
+          </view>
+
+          <view wx:if="{{isChoosed[5]==1}}" class='choose-view' bindtap='changeForChoose' id='5'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='5'>
+            <image class='choose-image' src='{{srcs[5]}}'></image>
+          </view>
+        </view>
+
+        <view class="choose-V">
+          <view wx:if="{{isChoosed[6]==1}}" class='choose-view' bindtap='changeForChoose' id='6'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='6'>
+            <image class='choose-image' src='{{srcs[6]}}'></image>
+          </view>
+
+          <view wx:if="{{isChoosed[7]==1}}" class='choose-view' bindtap='changeForChoose' id='7'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='7'>
+            <image class='choose-image' src='{{srcs[7]}}'></image>
+          </view>
+
+          <view wx:if="{{isChoosed[8]==1}}" class='choose-view' bindtap='changeForChoose' id='8'>
+            <image class='choose-image' src='{{imagePig}}'></image>
+          </view>
+          <view wx:else class='choose-view' bindtap='changeForChoose' id='8'>
+            <image class='choose-image' src='{{srcs[8]}}'></image>
+          </view>
+        </view>
+
+        <button class="see-menu" bindtap="seeMenu">下单!</button>  
+ 
+    </view>
+
+</view>

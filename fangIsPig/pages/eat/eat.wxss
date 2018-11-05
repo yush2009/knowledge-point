@@ -1,0 +1,39 @@
+.eatView{
+    width: 100%;
+    height: 1250rpx;
+    background: rgb(250, 56, 72);
+    margin: 0rpx;
+    text-align: center;
+}
+
+.chooseForUserView{
+    margin:40rpx;
+    padding-top: 10rpx;
+    height: 900rpx;
+    background: white;
+    text-align: center;
+}
+
+.choose-V{
+    display: flex;
+    margin-top: 40rpx;
+}
+
+.choose-view{  
+    flex: 1;
+    content:none !important;
+    height: 180rpx;
+    width: 180rpx; 
+    border:1px solid white;
+}  
+
+.choose-image{
+    height: 180rpx;
+    width: 180rpx;
+    border-radius:100rpx;
+}
+
+.see-menu{
+    margin:80rpx; 
+    background: #FAE738;
+}

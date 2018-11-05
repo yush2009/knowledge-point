@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/eat/eat",
+    "pages/search/search",
+    "pages/weather/weather",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#363527",
+    "navigationBarTitleText": "芳芳是只猪",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#4db900",
+    "backgroundColor": "#fbfbfd",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/eat/eat",
+        "text": "吃嘛嘛香"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "周边美食"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气如何"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "订单管理"
+      }
+    ]
+  }
+}
